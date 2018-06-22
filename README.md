@@ -15,7 +15,9 @@ cleos set action permission eoscanadacom eosio claimrewards claimer
 
 Inject secret with:
 
-kubectl create secret generic claimer --from-literal=privkey=PRIVATEKEY --from-literal=pubkey=PUBLICKEY
+kubectl create secret generic claimer --from-literal=privkey=PRIVATEKEY --from-literal=pubkey=EOS7NFuBesBKK5XHHLtzFxm7S57Eq11gUtndrsvq3Mt3XZNMTHfqc
+
+Boot and profit.
 
 
 LICENSE

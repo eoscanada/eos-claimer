@@ -45,8 +45,9 @@ func main() {
 	var sleep time.Duration
 	for {
 		time.Sleep(sleep)
-		sleep = 3 * time.Minute
+		sleep = 10 * time.Second
 
+		log.Println("Submitting claimrewards")
 		actionResp, err := api.SignPushActions(act)
 		if err != nil {
 			fmt.Println("ERROR calling :", err)
