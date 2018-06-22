@@ -1,0 +1,49 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "qg/iEB3Y49wxaPqYjDNHKVS6yOs=",
+			"path": "github.com/eoscanada/eos-go",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "mbdurDenl8bhRVVu8ixJw70fi5E=",
+			"path": "github.com/eoscanada/eos-go/btcsuite/btcd/btcec",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "9CdGdJ/+qjIwCfyoxoB3JxNtdyg=",
+			"path": "github.com/eoscanada/eos-go/btcsuite/btcutil",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "VkjW+vswsv7J0PX2UFqqg+/RVgs=",
+			"path": "github.com/eoscanada/eos-go/btcsuite/btcutil/base58",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "Prj/mEIP4L5aX+Kwis+lhBklBOE=",
+			"path": "github.com/eoscanada/eos-go/ecc",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "NdntZrHRFRW6AzmCseIz2LOvb2w=",
+			"path": "github.com/eoscanada/eos-go/system",
+			"revision": "d44666dc2e7e4b56920c077e57df62476565a27d",
+			"revisionTime": "2018-06-22T03:04:04Z"
+		},
+		{
+			"checksumSHA1": "TQoVgHqUD72/5ALzi9p5W3oyaug=",
+			"path": "golang.org/x/crypto/ripemd160",
+			"revision": "ae8bce0030810cf999bb2b9868ae5c7c58e6343b",
+			"revisionTime": "2018-04-30T17:54:52Z"
+		}
+	],
+	"rootPath": "github.com/eoscanada/eos-claimer"
+}
