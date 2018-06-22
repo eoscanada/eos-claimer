@@ -18,6 +18,6 @@ COPY --from=builder /eos-claimer /app/eos-claimer
 ENV EOS_CLAIMER_URL https://mainnet.eoscanada.com
 ENV EOS_CLAIMER_OWNER eoscanadacom
 ENV EOS_CLAIMER_PERMISSION claimer
-ENV EOS_CLAIMER_KEY
+ENV EOS_CLAIMER_KEY none
 
 CMD /app/eos-claimer
