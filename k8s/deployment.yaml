@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: claimer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: claimer
+  template:
+    metadata:
+      name: claimer
+      labels:
+        app: claimer
+    spec:
+      containers:
+      - name: claimer
+        image: gcr.io/eoscanada-testnets/eos-claimer:latest
+        imagePullPolicy: Always
