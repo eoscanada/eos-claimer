@@ -17,3 +17,15 @@ spec:
       - name: claimer
         image: gcr.io/eoscanada-testnets/eos-claimer:latest
         imagePullPolicy: Always
+        env:
+        - name: EOS_CLAIMER_URL
+          value: http://mainnet.eoscanada.com
+        - name: EOS_CLAIMER_OWNER
+          value: eoscanadacom
+        - name: EOS_CLAIMER_PERMISSION
+          value: claimer
+        - name: EOS_CLAIMER_KEY
+          valueFrom:
+            secretKeyRef:
+              name: claimer
+              key: privkey
