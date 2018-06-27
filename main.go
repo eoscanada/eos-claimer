@@ -35,7 +35,6 @@ func main() {
 	}
 
 	api.SetSigner(keyBag)
-	api.Debug = true
 
 	act := system.NewClaimRewards(eos.AccountName(os.Getenv("EOS_CLAIMER_OWNER")))
 	if perm := os.Getenv("EOS_CLAIMER_PERMISSION"); perm != "" {
@@ -50,9 +49,9 @@ func main() {
 		log.Println("Submitting claimrewards")
 		actionResp, err := api.SignPushActions(act)
 		if err != nil {
-			fmt.Println("ERROR calling :", err)
+			fmt.Println("ERROR sending claimrewards:", err)
 		} else {
-			fmt.Println("RESP:", actionResp)
+			fmt.Println("SUCCESSFUL RESP:", actionResp)
 		}
 	}
 }
