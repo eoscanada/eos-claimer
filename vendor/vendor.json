@@ -3,40 +3,40 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "2+E8mpc4WR6BWuGk6Pag6KMgawg=",
+			"checksumSHA1": "d1AVWZxDEEp4ZtMVZsq5cse3fh0=",
 			"path": "github.com/eoscanada/eos-go",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "mbdurDenl8bhRVVu8ixJw70fi5E=",
 			"path": "github.com/eoscanada/eos-go/btcsuite/btcd/btcec",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "9CdGdJ/+qjIwCfyoxoB3JxNtdyg=",
 			"path": "github.com/eoscanada/eos-go/btcsuite/btcutil",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "VkjW+vswsv7J0PX2UFqqg+/RVgs=",
 			"path": "github.com/eoscanada/eos-go/btcsuite/btcutil/base58",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "Prj/mEIP4L5aX+Kwis+lhBklBOE=",
 			"path": "github.com/eoscanada/eos-go/ecc",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "IzWsV4CUd3OIZ5fS5SIMNgbGhQM=",
 			"path": "github.com/eoscanada/eos-go/system",
-			"revision": "ca7795bb92d958e9e44d4c680f493fdedbb8bd42",
-			"revisionTime": "2018-07-05T14:37:41Z"
+			"revision": "41f3b757e924be72775089cf7ee5ff63d40f1daa",
+			"revisionTime": "2018-07-06T03:44:21Z"
 		},
 		{
 			"checksumSHA1": "TQoVgHqUD72/5ALzi9p5W3oyaug=",

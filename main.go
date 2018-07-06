@@ -23,6 +23,10 @@ import (
 // transactions.
 
 func main() {
+	if os.Getenv("EOS_CLAIMER_URL") == "" {
+		log.Fatalln("EOS_CLAIMER_URL not set: make sure you set all of the required env vars. See main.go for details.")
+	}
+
 	api := eos.New(os.Getenv("EOS_CLAIMER_URL"))
 
 	keyBag := eos.NewKeyBag()
@@ -30,7 +34,7 @@ func main() {
 		os.Getenv("EOS_CLAIMER_KEY"),
 	} {
 		if err := keyBag.Add(key); err != nil {
-			log.Fatalln("Couldn't load private key:", err)
+			log.Fatalln("Couldn't load private key specified by env var EOS_CLAIMER_KEY:", err)
 		}
 	}
 

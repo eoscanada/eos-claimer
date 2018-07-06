@@ -26,6 +26,15 @@ Boot and profit.
 
 
 
+Install
+-------
+
+With:
+
+```
+go get -u -v github.com/eoscanada/eos-claimer
+```
+
 
 FAQ
 ---
