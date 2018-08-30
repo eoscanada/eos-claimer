@@ -1,6 +1,8 @@
 Never forget to claimrewards
 ----------------------------
 
+[点击查看中文版](./README-cn.md)
+
 Just claim it, claim it, claim it before it's gone.
 
 
